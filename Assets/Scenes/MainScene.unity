@@ -1108,7 +1108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: "D\xE9cid\xE9ment, le Comte a les Arts en b\xEAte noire\u2026"
+  storyText: "(D\xE9cid\xE9ment, le Comte a les Arts en b\xEAte noire\u2026)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1194,7 +1194,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 764216155}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 764216176}
   variables:
   - {fileID: 764216108}
   description: 
@@ -1233,9 +1234,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: "D\u2019un revers de la main, j\u2019\xE9poussette mon costume. Cette
+  storyText: "(D\u2019un revers de la main, j\u2019\xE9poussette mon costume. Cette
     noblesse effroyable qui vous colle dans le dos comme une sangsue, ce n\u2019est
-    vraiment pas ce \xE0 quoi j\u2019aspirais. "
+    vraiment pas ce \xE0 quoi j\u2019aspirais.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1261,9 +1262,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "S\u2019ils savaient le nombre de responsabilit\xE9s absolument sid\xE9rant
+  storyText: "(S\u2019ils savaient le nombre de responsabilit\xE9s absolument sid\xE9rant
     que l\u2019on gagne en m\xEAme temps que ces titres, je ne sais pas s\u2019ils
-    seraient si enclins \xE0 nous envier."
+    seraient si enclins \xE0 nous envier.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1289,8 +1290,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "Oui, je reconnais que \xE7a m\u2019agace. Ce titre, je ne l\u2019ai
-    jamais demand\xE9 \xE0 personne, je l\u2019ai h\xE9rit\xE9."
+  storyText: "(Oui, je reconnais que \xE7a m\u2019agace. Ce titre, je ne l\u2019ai
+    jamais demand\xE9 \xE0 personne, je l\u2019ai h\xE9rit\xE9.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1316,9 +1317,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "Non pas que je rechigne \xE0 la t\xE2che, loin de l\xE0, mais me trouver
+  storyText: "(Non pas que je rechigne \xE0 la t\xE2che, loin de l\xE0, mais me trouver
     assis, au milieu de cette salle, \xE0 perdre mon temps, pour des raisons qui ne
-    me sont m\xEAme pas personnelles\u2026"
+    me sont m\xEAme pas personnelles\u2026)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1344,7 +1345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: "Je plaisante\u2026 Je suis d\u2019un humour fou, aujourd\u2019hui !"
+  storyText: "(Je plaisante\u2026 Je suis d\u2019un humour fou, aujourd\u2019hui !)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1370,9 +1371,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: "Personnellement, j\u2019avoue que rien ne me r\xE9siste, aucune porte
+  storyText: "(Personnellement, j\u2019avoue que rien ne me r\xE9siste, aucune porte
     ne m\u2019est rest\xE9 ferm\xE9e bien longtemps et cela parce que je sais o\xF9
-    frapper, qu\u2019il s\u2019agisse d\u2019une porte\u2026 ou d\u2019un visage. "
+    frapper, qu\u2019il s\u2019agisse d\u2019une porte\u2026 ou d\u2019un visage.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1398,8 +1399,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: "Les petites gens du peuple, bien entendu, c\u2019est leur r\xEAve de
-    gravir les \xE9chelons\u2026"
+  storyText: "(Les petites gens du peuple, bien entendu, c\u2019est leur r\xEAve de
+    gravir les \xE9chelons\u2026)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1425,9 +1426,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: "Si seulement je n\u2019avais pu r\xE9cup\xE9rer que l\u2019argent de
+  storyText: "(Si seulement je n\u2019avais pu r\xE9cup\xE9rer que l\u2019argent de
     mes chers parents, cela m\u2019aurait \xE9t\xE9 nettement plus b\xE9n\xE9fique.
-    Je n\u2019avais jamais pens\xE9 \xE0 cet aspect de la chose, \xE0 vrai dire\u2026"
+    Je n\u2019avais jamais pens\xE9 \xE0 cet aspect de la chose, \xE0 vrai dire\u2026)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1453,7 +1454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: "M\xEAme s\u2019il est, certes, bien normal de m\u2019envier !"
+  storyText: "(M\xEAme s\u2019il est, certes, bien normal de m\u2019envier !)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1493,9 +1494,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "Et dans un cas comme dans l\u2019autre : je m\u2019en fiche. Car non
+  storyText: "(Et dans un cas comme dans l\u2019autre : je m\u2019en fiche. Car non
     seulement cela m\u2019emb\xEAte au plus haut point, mais en plus de \xE7a il a
-    fallu que je tombe sur le Comte Nerstal..."
+    fallu que je tombe sur le Comte Nerstal...)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1521,9 +1522,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: "Si celui-ci obtient gr\xE2ce \xE0 ses yeux, le peuple verra s\u2019accomplir
+  storyText: "(Si celui-ci obtient gr\xE2ce \xE0 ses yeux, le peuple verra s\u2019accomplir
     les demandes auparavant formul\xE9es, si \xE0 l\u2019inverse le Comte refuse,
-    le peuple peut bien s'asseoir sur ses petits d\xE9sirs."
+    le peuple peut bien s'asseoir sur ses petits d\xE9sirs.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1549,8 +1550,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: "Je ne pensais pas les go\xFBts du Comte si mauvais, c\u2019est d\u2019un
-    classicisme horripilant."
+  storyText: "(Je ne pensais pas les go\xFBts du Comte si mauvais, c\u2019est d\u2019un
+    classicisme horripilant.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1576,8 +1577,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: "... Le plus ex\xE9crable qu\u2019il soit de l\u2019ensemble des Marcassins
-    !\r\n"
+  storyText: "(... Le plus ex\xE9crable qu\u2019il soit de l\u2019ensemble des Marcassins
+    !\r)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1603,9 +1604,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: "Encore un soupir. A quoi bon m\xE9dire\u2026 je suis bien le seul \xE0
+  storyText: "(Encore un soupir. A quoi bon m\xE9dire\u2026 je suis bien le seul \xE0
     ne pas l\u2019appr\xE9cier. Mille courbettes et ce goujat vous s\xE9duit le premier
-    idiot venu."
+    idiot venu.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1648,8 +1649,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: "Je suis \xE0 peu pr\xE8s certain qu\u2019il fait expr\xE8s de me faire
-    patienter\u2026 il sait que j\u2019ai horreur de ces formalit\xE9s."
+  storyText: "(Je suis \xE0 peu pr\xE8s certain qu\u2019il fait expr\xE8s de me faire
+    patienter\u2026 il sait que j\u2019ai horreur de ces formalit\xE9s.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1675,9 +1676,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: "En tant que Vicomte, il m\u2019incombe de traiter les revendications
+  storyText: "(En tant que Vicomte, il m\u2019incombe de traiter les revendications
     que les Barons me rapportent du peuple, puis d\u2019en faire un dossier \xE0 signer
-    aupr\xE8s de mon Comte r\xE9f\xE9rent."
+    aupr\xE8s de mon Comte r\xE9f\xE9rent.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1703,9 +1704,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: "Un soupir m\u2019\xE9chappe. C\u2019est long. Tr\xE8s long. Cet abruti
+  storyText: "(Un soupir m\u2019\xE9chappe. C\u2019est long. Tr\xE8s long. Cet abruti
     de Comte a bien conscience que j\u2019avais rendez-vous ce jour, \xE0 midi pile,
-    pour discuter des nouvelles dol\xE9ances du peuple."
+    pour discuter des nouvelles dol\xE9ances du peuple.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1731,8 +1732,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: "Je me demande s\u2019il prendrait mal que je le mette en contact avec
-    quelques artistes de mon r\xE9pertoire ?"
+  storyText: "(Je me demande s\u2019il prendrait mal que je le mette en contact avec
+    quelques artistes de mon r\xE9pertoire ?)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1758,9 +1759,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: "Pas que je sois expert en Art, mais cette sc\xE8ne de chasse et ses
+  storyText: "(Pas que je sois expert en Art, mais cette sc\xE8ne de chasse et ses
     vulgaires animaux s\u2019entre-d\xE9chirant me para\xEEt digne du si\xE8cle pr\xE9c\xE9dent,
-    il serait de bon ton d\u2019\xE9voluer un peu."
+    il serait de bon ton d\u2019\xE9voluer un peu.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1786,8 +1787,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: "De toute fa\xE7on, ce n\u2019est un secret pour personne que le Comte
-    de Nerstal est un homme disons\u2026 brusque."
+  storyText: "(De toute fa\xE7on, ce n\u2019est un secret pour personne que le Comte
+    de Nerstal est un homme disons\u2026 brusque.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1813,8 +1814,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: "Je ne devrais pas me laisser interpeller par ce genre de d\xE9tail frivole.
-    Regardons plut\xF4t le paysage du dehors, afin de ne pas mourir d\u2019ennui."
+  storyText: "(Je ne devrais pas me laisser interpeller par ce genre de d\xE9tail
+    frivole. Regardons plut\xF4t le paysage du dehors, afin de ne pas mourir d\u2019ennui.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1840,8 +1841,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: "C\u2019est alors que mes yeux furent happ\xE9s par le spectacle d\xE9sobligeant
-    qu\u2019offrait un tableau accroch\xE9 au mur."
+  storyText: "(C\u2019est alors que mes yeux furent happ\xE9s par le spectacle d\xE9sobligeant
+    qu\u2019offrait un tableau accroch\xE9 au mur.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1919,8 +1920,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: "Dommage que je n\u2019en sois pas un. Intelligence naturelle ou apprentissage
-    rigoureux, je me suis toujours pos\xE9 la question\u2026"
+  storyText: "(Dommage que je n\u2019en sois pas un. Intelligence naturelle ou apprentissage
+    rigoureux, je me suis toujours pos\xE9 la question\u2026)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1946,8 +1947,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: "Qu\u2019importe le contexte, j\u2019approche, j\u2019attrape, je danse,
-    je conclue. Eloquence et agilit\xE9, je n\u2019ai de d\xE9faut que l\u2019orgueil"
+  storyText: "(Qu\u2019importe le contexte, j\u2019approche, j\u2019attrape, je danse,
+    je conclue. Eloquence et agilit\xE9, je n\u2019ai de d\xE9faut que l\u2019orgueil)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -1973,8 +1974,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: "qui selon les situations peut m\xEAme se r\xE9v\xE9ler \xEAtre un atout
-    de taille, mais je m\u2019\xE9gare.\r"
+  storyText: "(qui selon les situations peut m\xEAme se r\xE9v\xE9ler \xEAtre un atout
+    de taille, mais je m\u2019\xE9gare.\r)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2000,7 +2001,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: "Je sors ma montre. Le bougre. Il n\u2019a pas tort."
+  storyText: "(Je sors ma montre. Le bougre. Il n\u2019a pas tort.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2026,9 +2027,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  storyText: "Au moins, le spectacle est rafra\xEEchissant, j\u2019en oublierais presque
-    que cela fait d\xE9j\xE0 dix minutes que ma patience est mise \xE0 rude \xE9preuve
-    - dix minutes, rendez-vous compte !"
+  storyText: "(Au moins, le spectacle est rafra\xEEchissant, j\u2019en oublierais
+    presque que cela fait d\xE9j\xE0 dix minutes que ma patience est mise \xE0 rude
+    \xE9preuve - dix minutes, rendez-vous compte !)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2054,9 +2055,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: "Je me l\xE8ve mollement pour inspecter la fen\xEAtre et la vue qu\u2019elle
+  storyText: "(Je me l\xE8ve mollement pour inspecter la fen\xEAtre et la vue qu\u2019elle
     m\u2019offre. Les environs ne sont que parterres de fleurs, dont la coordination
-    me parait bien hasardeuse."
+    me parait bien hasardeuse.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2082,9 +2083,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: "Nerstal sait se faire d\xE9sirer. Et pourtant, il devrait savoir que
+  storyText: "(Nerstal sait se faire d\xE9sirer. Et pourtant, il devrait savoir que
     j\u2019ai d\u2019autres activit\xE9s. Je ne peux pas passer ma vie ici \xE0 signer
-    de la paperasse, m\xEAme si cela fait partie de mes attributions."
+    de la paperasse, m\xEAme si cela fait partie de mes attributions.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2110,9 +2111,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: "Je me l\xE8ve mollement pour inspecter la fen\xEAtre et la vue qu\u2019elle
+  storyText: "(Je me l\xE8ve mollement pour inspecter la fen\xEAtre et la vue qu\u2019elle
     m\u2019offre. Les environs ne sont que parterres de fleurs, dont la coordination
-    me parait bien hasardeuse."
+    me parait bien hasardeuse.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2192,8 +2193,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: "J\u2019esp\xE8re juste que la vie ambiante saura me tirer de mon \xE9tat
-    v\xE9g\xE9tatif.\r"
+  storyText: "(J\u2019esp\xE8re juste que la vie ambiante saura me tirer de mon \xE9tat
+    v\xE9g\xE9tatif.\r)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2245,8 +2246,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  storyText: "Je sais, j\u2019ai d\xE9j\xE0 entendu cela il y a dix minutes. Je me
-    contente donc de lui lancer un oeil affable."
+  storyText: "(Je sais, j\u2019ai d\xE9j\xE0 entendu cela il y a dix minutes. Je me
+    contente donc de lui lancer un oeil affable.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2272,9 +2273,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: "Je tourne la t\xEAte, l\u2019air faussement int\xE9ress\xE9. Le serviteur
+  storyText: "(Je tourne la t\xEAte, l\u2019air faussement int\xE9ress\xE9. Le serviteur
     du Comte de Nerstal se tient droit comme un piquet, taill\xE9 \xE0 quatre \xE9pingles
-    pour le plaisir des yeux, muni de son \xE9ternel sourire mielleux."
+    pour le plaisir des yeux, muni de son \xE9ternel sourire mielleux.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2392,7 +2393,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: "Je vais vraiment finir par le mettre en contact avec mon r\xE9seau d\u2019artistes."
+  storyText: "(Je vais vraiment finir par le mettre en contact avec mon r\xE9seau
+    d\u2019artistes.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2435,8 +2437,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: "Le soleil \xE0 son z\xE9nith agresse mes yeux fatigu\xE9s. Je d\xE9cide
-    de me retirer de cette fen\xEAtre pour arpenter la pi\xE8ce."
+  storyText: "(Le soleil \xE0 son z\xE9nith agresse mes yeux fatigu\xE9s. Je d\xE9cide
+    de me retirer de cette fen\xEAtre pour arpenter la pi\xE8ce.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2462,8 +2464,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  storyText: "Mes doigts gant\xE9s caressent subrepticement un buste model\xE9 \xE0
-    l'effigie de mon h\xF4te. Plein d\u2019humilit\xE9, comme d\u2019habitude."
+  storyText: "(Mes doigts gant\xE9s caressent subrepticement un buste model\xE9 \xE0
+    l'effigie de mon h\xF4te. Plein d\u2019humilit\xE9, comme d\u2019habitude.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2542,7 +2544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: "Le fait-il expr\xE8s ?\nNon."
+  storyText: "(Le fait-il expr\xE8s ?)\nNon."
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2568,9 +2570,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: "Mon regard ne suffisait-il pas \xE0 t\u2019indiquer \xF4 combien ta
+  storyText: "(Mon regard ne suffisait-il pas \xE0 t\u2019indiquer \xF4 combien ta
     pr\xE9sence m\u2019est fastidieuse ? Il faut croire que non. A l\u2019image de
-    ton ma\xEEtre : odieux."
+    ton ma\xEEtre : odieux.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2676,7 +2678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: "Je sais, j\u2019ai assist\xE9 moi-m\xEAme \xE0 son inauguration."
+  storyText: "(Je sais, j\u2019ai assist\xE9 moi-m\xEAme \xE0 son inauguration.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2809,10 +2811,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: "Le Comte de Nerstal a failli m\u2019arracher un sursaut. Je me tourne
+  storyText: "(Le Comte de Nerstal a failli m\u2019arracher un sursaut. Je me tourne
     pour lui faire face et l\xE8ve le menton. La soixantaine lui va aussi mal que
     sa moustache pendante - veut-il r\xE9ellement se donner un genre ou bien ne sait-il
-    simplement pas se raser ?"
+    simplement pas se raser ?)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2877,9 +2879,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  storyText: "Allons, Martin, ne mimez pas cet air d\xE9\xE7u. La seule chose qui
+  storyText: "(Allons, Martin, ne mimez pas cet air d\xE9\xE7u. La seule chose qui
     vous affecte n\u2019est pas mon refus mais le fait que je sois insensible \xE0
-    vos pi\xE8tres railleries\u2026"
+    vos pi\xE8tres railleries\u2026)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2905,8 +2907,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  storyText: "Je m\u2019emp\xEAche de soupirer. Evidemment que je vais me donner la
-    peine de te suivre, je ne suis pas venu attendre ici pour rien."
+  storyText: "(Je m\u2019emp\xEAche de soupirer. Evidemment que je vais me donner
+    la peine de te suivre, je ne suis pas venu attendre ici pour rien.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
