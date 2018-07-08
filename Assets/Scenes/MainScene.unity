@@ -1147,7 +1147,8 @@ MonoBehaviour:
   nameColor: {r: 0.7735849, g: 0.26793265, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: b40785ac0ed30e249b555e42ed142ca3, type: 3}
+  - {fileID: 21300000, guid: 89db89dbd4ab4be4fbd7d6ab619e1704, type: 3}
+  - {fileID: 21300000, guid: 852b7868be12ca243be73498f03572a8, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1415,11 +1416,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 173.71971, y: -9.613974}
+  scrollPos: {x: 129.34367, y: -35.549255}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 308
-  zoom: 0.79000014
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1703,7 +1704,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &764216122
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 764216107}
@@ -1718,7 +1719,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1318446519}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 4e72b8b2b9712604aa89c291428e061e, type: 3}
+  portrait: {fileID: 21300000, guid: 64e364b62ab63f24cb2536fadcdbb46f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1807621158}
@@ -2390,7 +2391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -76.92828
+    x: -77.92828
     y: 257.96954
     width: 120
     height: 40
@@ -2476,7 +2477,7 @@ MonoBehaviour:
   storyText: Monsieur le Comte de Nerstal va vous recevoir dans un instant.
   description: 
   character: {fileID: 666435853}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 89db89dbd4ab4be4fbd7d6ab619e1704, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2557,7 +2558,7 @@ MonoBehaviour:
   storyText: Monsieur le Vicomte.
   description: 
   character: {fileID: 666435853}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 89db89dbd4ab4be4fbd7d6ab619e1704, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2600,7 +2601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -77.833916
+    x: -76.833916
     y: 315.36734
     width: 120
     height: 40
@@ -2777,7 +2778,7 @@ MonoBehaviour:
     par cette chaleur inf\xE2me, il faut vous hydrater. \r"
   description: 
   character: {fileID: 666435853}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 89db89dbd4ab4be4fbd7d6ab619e1704, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2857,7 +2858,7 @@ MonoBehaviour:
   storyText: "Puis-je vous servir \xE0 boire, pour patienter ?"
   description: 
   character: {fileID: 666435853}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 89db89dbd4ab4be4fbd7d6ab619e1704, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2883,7 +2884,7 @@ MonoBehaviour:
   storyText: '...'
   description: 
   character: {fileID: 666435853}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 852b7868be12ca243be73498f03572a8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2964,7 +2965,7 @@ MonoBehaviour:
     ? Notre nouveau plat national, il faut lui faire honneur !"
   description: 
   character: {fileID: 666435853}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 89db89dbd4ab4be4fbd7d6ab619e1704, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2992,7 +2993,7 @@ MonoBehaviour:
     plus \xE0 prouver."
   description: 
   character: {fileID: 666435853}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 89db89dbd4ab4be4fbd7d6ab619e1704, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3044,7 +3045,7 @@ MonoBehaviour:
   storyText: "Il ne tient qu\u2019\xE0 vous de ne pas arriver en avance."
   description: 
   character: {fileID: 1318446519}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 64e364b62ab63f24cb2536fadcdbb46f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3200,7 +3201,7 @@ MonoBehaviour:
   storyText: "Si vous voulez bien vous donner la peine.\r"
   description: 
   character: {fileID: 1318446519}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 64e364b62ab63f24cb2536fadcdbb46f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3386,7 +3387,7 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
+  useDefaultSettings: 0
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -3410,7 +3411,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 666435853}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: b40785ac0ed30e249b555e42ed142ca3, type: 3}
+  portrait: {fileID: 21300000, guid: 89db89dbd4ab4be4fbd7d6ab619e1704, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1807621158}
@@ -3712,7 +3713,8 @@ MonoBehaviour:
   nameColor: {r: 0.509434, g: 0, b: 0.041522298, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 4e72b8b2b9712604aa89c291428e061e, type: 3}
+  - {fileID: 21300000, guid: b82bdf80ca32bbb4f97bda4b9e53b28a, type: 3}
+  - {fileID: 21300000, guid: 64e364b62ab63f24cb2536fadcdbb46f, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
