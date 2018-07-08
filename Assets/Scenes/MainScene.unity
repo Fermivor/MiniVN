@@ -1071,7 +1071,8 @@ MonoBehaviour:
   nameText: Martin
   nameColor: {r: 0.7735849, g: 0.26793265, b: 0, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: b40785ac0ed30e249b555e42ed142ca3, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1225,11 +1226,14 @@ GameObject:
   - component: {fileID: 764216179}
   - component: {fileID: 764216178}
   - component: {fileID: 764216174}
-  - component: {fileID: 764216122}
   - component: {fileID: 764216184}
   - component: {fileID: 764216183}
   - component: {fileID: 764216182}
   - component: {fileID: 764216181}
+  - component: {fileID: 764216187}
+  - component: {fileID: 764216186}
+  - component: {fileID: 764216185}
+  - component: {fileID: 764216122}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1336,11 +1340,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 162.65149, y: -17.949883}
+  scrollPos: {x: 173.71971, y: -9.613974}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 308
-  zoom: 0.8200001
+  zoom: 0.79000014
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1348,9 +1352,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 764216147}
+  - {fileID: 764216180}
   selectedCommands:
-  - {fileID: 764216182}
+  - {fileID: 764216174}
   variables:
   - {fileID: 764216108}
   description: 
@@ -1624,17 +1628,33 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &764216122
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 764216107}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 764216180}
-  waitForFrames: 1
+  itemId: 84
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1318446519}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4e72b8b2b9712604aa89c291428e061e, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1807621158}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &764216123
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2505,7 +2525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -76.56809
+    x: -77.833916
     y: 315.36734
     width: 120
     height: 40
@@ -2516,6 +2536,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 764216187}
   - {fileID: 764216153}
   - {fileID: 764216152}
   - {fileID: 764216150}
@@ -2531,7 +2552,9 @@ MonoBehaviour:
   - {fileID: 764216166}
   - {fileID: 764216165}
   - {fileID: 764216175}
+  - {fileID: 764216186}
   - {fileID: 764216173}
+  - {fileID: 764216122}
   - {fileID: 764216172}
   - {fileID: 764216170}
   - {fileID: 764216171}
@@ -3025,7 +3048,7 @@ MonoBehaviour:
   itemId: 77
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 764216110}
+  targetBlock: {fileID: 764216155}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -3160,7 +3183,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -77.28563
-    y: 95.998665
+    y: 97.26449
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3168,7 +3191,7 @@ MonoBehaviour:
   itemId: 73
   blockName: Setup
   description: 
-  eventHandler: {fileID: 764216122}
+  eventHandler: {fileID: 764216185}
   commandList:
   - {fileID: 764216178}
   - {fileID: 764216179}
@@ -3253,6 +3276,77 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
+--- !u!114 &764216185
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 764216180}
+  waitForFrames: 1
+--- !u!114 &764216186
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 83
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 666435853}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &764216187
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 82
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 666435853}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b40785ac0ed30e249b555e42ed142ca3, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1807621158}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &977884695
 GameObject:
   m_ObjectHideFlags: 0
@@ -3542,7 +3636,8 @@ MonoBehaviour:
   nameText: Comte de Nerstal
   nameColor: {r: 0.509434, g: 0, b: 0.041522298, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 4e72b8b2b9712604aa89c291428e061e, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
