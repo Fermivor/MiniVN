@@ -1903,6 +1903,9 @@ GameObject:
   - component: {fileID: 764216212}
   - component: {fileID: 764216211}
   - component: {fileID: 764216217}
+  - component: {fileID: 764216229}
+  - component: {fileID: 764216225}
+  - component: {fileID: 764216221}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2009,21 +2012,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 173.24474, y: -20.2208}
+  scrollPos: {x: -121.09662, y: -383.2195}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 308
-  zoom: 0.48999998
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 764216180}
-  selectedCommands:
-  - {fileID: 764216174}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 764216108}
   description: 
@@ -4540,7 +4541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -92.9151
     y: 383.79413
-    width: 137.7551
+    width: 151
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4730,7 +4731,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 210.06415
     y: 425.9379
-    width: 127.551025
+    width: 141
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4854,6 +4855,26 @@ MonoBehaviour:
   isLocal: 0
   toTransformOLD: {fileID: 0}
   toPositionOLD: {x: 0, y: 0, z: 0}
+--- !u!114 &764216221
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 134
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 764216229}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &764216222
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4905,7 +4926,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 198.69864
     y: 477.2195
-    width: 139.79593
+    width: 151
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4919,6 +4940,34 @@ MonoBehaviour:
   - {fileID: 764216220}
   - {fileID: 764216219}
   - {fileID: 764216218}
+  - {fileID: 764216221}
+--- !u!114 &764216225
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 133
+  indentLevel: 0
+  storyText: "Bon d\xE9barras, voil\xE0 une bonne chose de faite. Cher Vicomte, je
+    ne vous propose pas de rester d\xEEner ?"
+  description: 
+  character: {fileID: 1318446519}
+  portrait: {fileID: 21300000, guid: 64e364b62ab63f24cb2536fadcdbb46f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &764216226
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5012,6 +5061,31 @@ MonoBehaviour:
   isLocal: 0
   toTransformOLD: {fileID: 0}
   toPositionOLD: {x: 0, y: 0, z: 0}
+--- !u!114 &764216229
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 176.24487
+    y: 548.1593
+    width: 196
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 132
+  blockName: Choix rester diner ou pas
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 764216225}
 --- !u!114 &764216230
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5027,7 +5101,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 203.65991
     y: 382.6078
-    width: 145.91837
+    width: 155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
