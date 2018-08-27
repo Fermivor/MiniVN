@@ -1983,8 +1983,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 764216242}
+  selectedCommands:
+  - {fileID: 764216257}
   variables:
   - {fileID: 764216108}
   description: 
@@ -5178,7 +5180,7 @@ MonoBehaviour:
   storyText: "S\u2019ils savaient le nombre de responsabilit\xE9s absolument sid\xE9rant
     que l\u2019on gagne en m\xEAme temps que ces titres, je ne sais pas s\u2019ils
     seraient si enclins \xE0 nous envier. M\xEAme s\u2019il est, certes, bien normal
-    de m\u2019envier. "
+    de m\u2019envier."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6884,7 +6886,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -1000, y: 0}
-  m_SizeDelta: {x: 2000, y: 400}
+  m_SizeDelta: {x: 2000, y: 372}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1895952662
 MonoBehaviour:
