@@ -1775,7 +1775,6 @@ GameObject:
   - component: {fileID: 764216190}
   - component: {fileID: 764216189}
   - component: {fileID: 764216188}
-  - component: {fileID: 764216208}
   - component: {fileID: 764216209}
   - component: {fileID: 764216210}
   - component: {fileID: 764216234}
@@ -1832,6 +1831,15 @@ GameObject:
   - component: {fileID: 764216244}
   - component: {fileID: 764216113}
   - component: {fileID: 764216110}
+  - component: {fileID: 764216123}
+  - component: {fileID: 764216121}
+  - component: {fileID: 764216120}
+  - component: {fileID: 764216119}
+  - component: {fileID: 764216118}
+  - component: {fileID: 764216117}
+  - component: {fileID: 764216116}
+  - component: {fileID: 764216115}
+  - component: {fileID: 764216114}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1881,7 +1889,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &764216110
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 764216107}
@@ -1919,11 +1927,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 171.90338, y: -142.21951}
+  scrollPos: {x: -40.85951, y: -565.106}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 308
-  zoom: 1
+  zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1931,9 +1939,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 764216155}
-  selectedCommands:
-  - {fileID: 764216164}
+  - {fileID: 764216119}
+  selectedCommands: []
   variables:
   - {fileID: 764216108}
   description: 
@@ -1961,7 +1968,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &764216113
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 764216107}
@@ -1977,6 +1984,206 @@ MonoBehaviour:
     il serait de bon ton d\u2019\xE9voluer un peu."
   description: 
   character: {fileID: 76814481}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &764216114
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 174
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 764216117}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &764216115
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 173
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 764216118}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &764216116
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 172
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 764216119}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &764216117
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 198.27182
+    y: 742.3431
+    width: 148.96907
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 171
+  blockName: "Aller voir Aur\xE9lia"
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &764216118
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 15.4986725
+    y: 743.40497
+    width: 151.03091
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 170
+  blockName: Aller voir Lorinne
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &764216119
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -161.42924
+    y: 744.374
+    width: 144.84537
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 169
+  blockName: Aller voir James
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &764216120
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 168
+  indentLevel: 0
+  storyText: "Dans ce cas je ne vous raccompagne pas, Martin est pay\xE9 pour cela.
+    Au revoir, Vicomte.\r"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &764216121
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 167
+  indentLevel: 0
+  storyText: "(Beaucoup trop d\u2019amabilit\xE9 en cet homme, lui arracher un sourire
+    doit relever du miracle ! Je me dirige vers la sortie et feuillette mon carnet
+    en m\xEAme temps. J\u2019ai des visites \xE0 rendre \xE0 quelques-unes de mes
+    connaissances\u2026 qui vais-je aller voir aujourd\u2019hui ?)\r\n"
+  description: 
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2004,7 +2211,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1318446519}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 64e364b62ab63f24cb2536fadcdbb46f, type: 3}
+  portrait: {fileID: 21300000, guid: f3344b790f9de0140aedb1b8820a228f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1807621158}
@@ -2016,6 +2223,32 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &764216123
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 166
+  indentLevel: 0
+  storyText: Non, en effet, je vous remercie.
+  description: 
+  character: {fileID: 76814481}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &764216134
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2773,7 +3006,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: "(Je sais, j\u2019ai assist\xE9 moi-m\xEAme \xE0 son inauguration.)"
+  storyText: "(Je sais, j\u2019ai assist\xE9 moi-m\xEAme \xE0 son inauguration, lors
+    de l\u2019intronisation du Duc Vladimir.)\r"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2883,7 +3117,7 @@ MonoBehaviour:
   storyText: "Il ne tient qu\u2019\xE0 vous de ne pas arriver en avance."
   description: 
   character: {fileID: 1318446519}
-  portrait: {fileID: 21300000, guid: 64e364b62ab63f24cb2536fadcdbb46f, type: 3}
+  portrait: {fileID: 21300000, guid: f3344b790f9de0140aedb1b8820a228f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3039,7 +3273,7 @@ MonoBehaviour:
   storyText: "Si vous voulez bien vous donner la peine.\r"
   description: 
   character: {fileID: 1318446519}
-  portrait: {fileID: 21300000, guid: 64e364b62ab63f24cb2536fadcdbb46f, type: 3}
+  portrait: {fileID: 21300000, guid: f3344b790f9de0140aedb1b8820a228f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3296,7 +3530,9 @@ MonoBehaviour:
   itemId: 103
   indentLevel: 0
   storyText: "(Je sors mon Nobilian de son \xE9tui. Rouge et nacre. Petite pens\xE9e
-    pour ma m\xE8re, qui en \xE9tait la douce propri\xE9taire, jadis\u2026)"
+    pour ma m\xE8re, qui en \xE9tait la douce propri\xE9taire, jadis\u2026\nSa vie
+    \xE9tait d\xE9j\xE0 toute trac\xE9e dans ce stylo, marqueur de noblesse mais aussi
+    de trahison.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -3784,7 +4020,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -92.9151
     y: 383.79413
-    width: 151
+    width: 154.12372
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3811,36 +4047,8 @@ MonoBehaviour:
   - {fileID: 764216191}
   - {fileID: 764216190}
   - {fileID: 764216189}
-  - {fileID: 764216208}
   - {fileID: 764216209}
   - {fileID: 764216217}
---- !u!114 &764216208
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 764216107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 105
-  indentLevel: 0
-  storyText: "(Sa vie \xE9tait d\xE9j\xE0 toute trac\xE9e dans ce stylo, marqueur
-    de noblesse mais aussi de trahison.)\r"
-  description: 
-  character: {fileID: 76814481}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &764216209
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3974,7 +4182,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 210.06415
     y: 425.9379
-    width: 141
+    width: 143.81442
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4169,7 +4377,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 198.69864
     y: 477.2195
-    width: 151
+    width: 154.12372
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4319,7 +4527,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 176.24487
     y: 548.1593
-    width: 196
+    width: 200.51546
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4346,7 +4554,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 203.65991
     y: 382.6078
-    width: 155
+    width: 158.24742
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4450,7 +4658,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 330.09662
     y: 632.2195
-    width: 120
+    width: 122.16495
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4472,9 +4680,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 86.09662
+    x: 6.715164
     y: 632.2195
-    width: 165
+    width: 168.5567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4482,7 +4690,13 @@ MonoBehaviour:
   blockName: "Refuser et s\u2019en aller"
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 764216123}
+  - {fileID: 764216120}
+  - {fileID: 764216121}
+  - {fileID: 764216116}
+  - {fileID: 764216115}
+  - {fileID: 764216114}
 --- !u!114 &764216237
 MonoBehaviour:
   m_ObjectHideFlags: 2
