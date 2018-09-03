@@ -1497,6 +1497,80 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 563680650}
+--- !u!1 &598017432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 598017434}
+  - component: {fileID: 598017433}
+  m_Layer: 0
+  m_Name: Zenichoux
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &598017433
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 598017432}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 64cd6cc3ce9b18d49b11356982e58410, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.2, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &598017434
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 598017432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 79.25, y: -10.83, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &640841200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1840,6 +1914,8 @@ GameObject:
   - component: {fileID: 764216116}
   - component: {fileID: 764216115}
   - component: {fileID: 764216114}
+  - component: {fileID: 764216125}
+  - component: {fileID: 764216124}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1927,7 +2003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -40.85951, y: -565.106}
+  scrollPos: {x: 174.60443, y: -214.59058}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 308
@@ -1939,7 +2015,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 764216119}
+  - {fileID: 764216207}
   selectedCommands: []
   variables:
   - {fileID: 764216108}
@@ -2237,6 +2313,52 @@ MonoBehaviour:
   itemId: 166
   indentLevel: 0
   storyText: Non, en effet, je vous remercie.
+  description: 
+  character: {fileID: 76814481}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &764216124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 176
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 977884697}
+  waitUntilFinished: 0
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &764216125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764216107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 175
+  indentLevel: 0
+  storyText: Non.
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2595,9 +2717,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: "(Je tourne la t\xEAte, l\u2019air faussement int\xE9ress\xE9. Le serviteur
-    du Comte de Nerstal se tient droit comme un piquet, taill\xE9 \xE0 quatre \xE9pingles
-    pour le plaisir des yeux, muni de son \xE9ternel sourire mielleux.)"
+  storyText: "(Je tourne la t\xEAte, l\u2019air faussement int\xE9ress\xE9. Martin,
+    le serviteur du Comte de Nerstal se tient droit comme un piquet, taill\xE9 \xE0
+    quatre \xE9pingles pour le plaisir des yeux, muni de son \xE9ternel sourire mielleux.)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
@@ -2690,8 +2812,10 @@ MonoBehaviour:
   - {fileID: 764216160}
   - {fileID: 764216161}
   - {fileID: 764216162}
+  - {fileID: 764216125}
   - {fileID: 764216169}
   - {fileID: 764216168}
+  - {fileID: 764216124}
   - {fileID: 764216167}
   - {fileID: 764216166}
   - {fileID: 764216165}
@@ -2872,7 +2996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: "(Le fait-il expr\xE8s ?)\nNon."
+  storyText: "(Le fait-il expr\xE8s ?)"
   description: 
   character: {fileID: 76814481}
   portrait: {fileID: 0}
