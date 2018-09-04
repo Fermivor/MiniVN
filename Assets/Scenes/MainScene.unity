@@ -2015,8 +2015,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 764216207}
-  selectedCommands: []
+  - {fileID: 764216155}
+  selectedCommands:
+  - {fileID: 764216186}
   variables:
   - {fileID: 764216108}
   description: 
@@ -3608,12 +3609,12 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 666435853}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 89db89dbd4ab4be4fbd7d6ab619e1704, type: 3}
+  portrait: {fileID: 21300000, guid: 4acf7202b5f42d2438cc9c0acc150051, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1807621158}
   facing: 0
-  useDefaultSettings: 1
+  useDefaultSettings: 0
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
